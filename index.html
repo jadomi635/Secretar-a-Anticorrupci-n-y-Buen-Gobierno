@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía Tarea 1: Secretaría Anticorrupción y Buen Gobierno</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @media print {
+            .no-print { display: none !important; }
+            body { background: white !important; color: black !important; }
+            .tab-content { display: block !important; margin-bottom: 1.5rem; }
+            .shadow-xl, .shadow-md, .shadow-lg { box-shadow: none !important; }
+            .border { border-color: #e2e8f0 !important; }
+        }
+    </style>
+</head>
+<body class="bg-slate-100 text-slate-800 font-sans min-h-screen pb-12">
+
+    <!-- BARRA SUPERIOR DE NAVEGACIÓN Y PDF -->
+    <div class="no-print bg-slate-900 text-white p-3 sticky top-0 z-50 shadow-lg">
+        <div class="max-w-6xl mx-auto flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <i class="fas fa-layer-group text-amber-400 text-lg"></i>
+                <span class="font-bold text-sm md:text-base">Infografía Interactiva • Derecho Administrativo II</span>
+            </div>
+            <button onclick="window.print()" class="bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold px-4 py-1.5 rounded-lg transition flex items-center gap-2 text-sm shadow-md">
+                <i class="fas fa-file-pdf"></i> Imprimir / Guardar como PDF
+            </button>
+        </div>
+    </div>
+
+    <div class="max-w-5xl mx-auto p-4 md:p-8 space-y-8">
+
+        <!-- PORTADA INSTITUCIONAL -->
+        <header class="bg-white rounded-2xl p-6 md:p-8 shadow-lg border-t-8 border-slate-900 relative overflow-hidden">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-6 pb-6 border-b border-slate-200">
+               <div class="flex items-center gap-4">
+    <!-- LOGO OFICIAL DE LA URN -->
+    <div class="w-16 h-16 rounded-xl bg-white border border-slate-200 flex items-center justify-center p-1 shadow">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFfyLmSd3JzU-mp_sPEN2SwMsrzAKUw5OSWPK0NmcZNj5MptsHrvYWpgW2&s=10" alt="Logo URN" class="w-full h-full object-contain">
+    </div>
+    <div>
+        <span class="text-xs font-bold uppercase tracking-wider text-amber-600 block">Universidad del Norte (URN)</span>
+        <h2 class="text-base md:text-lg font-extrabold text-slate-800">Licenciatura en Derecho</h2>
+    </div>
+</div>
+                <div class="bg-amber-100 border border-amber-300 text-amber-900 text-xs md:text-sm font-semibold px-4 py-1.5 rounded-full flex items-center gap-2">
+                    <i class="fas fa-scale-balanced"></i> Ley Orgánica de la APF (Art. 26 y 37)
+                </div>
+            </div>
+
+            <div class="text-center my-6 space-y-2">
+                <h1 class="text-3xl md:text-4xl font-black text-slate-900 tracking-tight uppercase">
+                    Secretaría Anticorrupción y Buen Gobierno
+                </h1>
+                <p class="text-slate-600 text-sm md:text-base max-w-2xl mx-auto">
+                    Análisis infográfico sobre el control interno, fiscalización y combate a la corrupción en la Administración Pública Federal.
+                </p>
+            </div>
+
+            <!-- FICHA DE DATOS -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4 text-xs md:text-sm">
+                <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+                    <span class="text-slate-400 text-xs block font-bold uppercase">Alumna:</span>
+                    <span class="font-bold text-slate-800 text-base flex items-center gap-2 mt-0.5">
+                        <i class="fas fa-user-graduate text-amber-600"></i> Nancy Torres Norte
+                    </span>
+                </div>
+                <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+                    <span class="text-slate-400 text-xs block font-bold uppercase">Asignatura:</span>
+                    <span class="font-bold text-slate-800 text-base flex items-center gap-2 mt-0.5">
+                        <i class="fas fa-book-bookmark text-blue-600"></i> Derecho Administrativo II
+                    </span>
+                </div>
+                <div class="bg-slate-50 p-3.5 rounded-xl border border-slate-200">
+                    <span class="text-slate-400 text-xs block font-bold uppercase">Docente:</span>
+                    <span class="font-bold text-slate-800 text-base flex items-center gap-2 mt-0.5">
+                        <i class="fas fa-chalkboard-user text-emerald-600"></i> Lic. Samanta Leonor Mora
+                    </span>
+                </div>
+            </div>
+        </header>
+
+        <!-- SECCIÓN 1: PROPÓSITO GENERAL -->
+        <section class="bg-white rounded-2xl p-6 shadow-md border border-slate-200 space-y-4">
+            <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2 border-b pb-3">
+                <i class="fas fa-compass text-slate-700"></i> Propósito General de la Secretaría
+            </h2>
+            <p class="text-slate-700 leading-relaxed text-sm md:text-base">
+                Conforme a la estructura centralizada de la APF, la <strong>Secretaría Anticorrupción y Buen Gobierno</strong> actúa como el órgano rector de control interno del Ejecutivo Federal. Su misión principal es coordinar la transparencia, auditar el gasto de los recursos públicos y sancionar las conductas ilícitas o negligentes de las personas servidoras públicas.
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-4 pt-2">
+                <div class="bg-amber-50 p-4 rounded-xl border border-amber-200 text-center space-y-1">
+                    <i class="fas fa-shield-cat text-amber-600 text-2xl"></i>
+                    <h3 class="font-bold text-amber-950 text-sm">Prevención</h3>
+                    <p class="text-xs text-amber-800">Impulsa normas de ética, códigos de conducta y cultura cívica en las dependencias.</p>
+                </div>
+                <div class="bg-blue-50 p-4 rounded-xl border border-blue-200 text-center space-y-1">
+                    <i class="fas fa-magnifying-glass-chart text-blue-600 text-2xl"></i>
+                    <h3 class="font-bold text-blue-950 text-sm">Fiscalización</h3>
+                    <p class="text-xs text-blue-800">Ejecuta el Programa Anual de Fiscalización y auditorías directas.</p>
+                </div>
+                <div class="bg-purple-50 p-4 rounded-xl border border-purple-200 text-center space-y-1">
+                    <i class="fas fa-gavel text-purple-600 text-2xl"></i>
+                    <h3 class="font-bold text-purple-950 text-sm">Sanción</h3>
+                    <p class="text-xs text-purple-800">Substancia procedimientos conforme a la Ley General de Responsabilidades Administrativas.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN 2: PESTAÑAS INTERACTIVAS CON ATRIBUCIONES (ART. 37) -->
+        <section class="bg-white rounded-2xl p-6 shadow-md border border-slate-200 space-y-6">
+            <div class="flex flex-col md:flex-row items-start md:items-center justify-between gap-2 border-b pb-4">
+                <div>
+                    <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2">
+                        <i class="fas fa-list-check text-slate-700"></i> Desglose Temático del Artículo 37
+                    </h2>
+                    <p class="text-xs text-slate-500">Selecciona una pestaña para explorar las funciones específicas del texto ley</p>
+                </div>
+            </div>
+
+            <!-- BOTONES DE PESTAÑAS (Tabs) -->
+            <div class="no-print flex flex-wrap gap-2 border-b border-slate-200 pb-3">
+                <button onclick="cambiarPestana('tab-integridad')" id="btn-integridad" class="tab-btn bg-slate-900 text-white font-bold px-4 py-2 rounded-xl text-xs md:text-sm flex items-center gap-2 transition">
+                    <i class="fas fa-award"></i> 1. Integridad y Ética
+                </button>
+                <button onclick="cambiarPestana('tab-auditoria')" id="btn-auditoria" class="tab-btn bg-slate-100 text-slate-600 font-bold px-4 py-2 rounded-xl text-xs md:text-sm flex items-center gap-2 hover:bg-slate-200 transition">
+                    <i class="fas fa-clipboard-check"></i> 2. Control y Auditoría
+                </button>
+                <button onclick="cambiarPestana('tab-compras')" id="btn-compras" class="tab-btn bg-slate-100 text-slate-600 font-bold px-4 py-2 rounded-xl text-xs md:text-sm flex items-center gap-2 hover:bg-slate-200 transition">
+                    <i class="fas fa-handshake"></i> 3. Contrataciones
+                </button>
+                <button onclick="cambiarPestana('tab-sanciones')" id="btn-sanciones" class="tab-btn bg-slate-100 text-slate-600 font-bold px-4 py-2 rounded-xl text-xs md:text-sm flex items-center gap-2 hover:bg-slate-200 transition">
+                    <i class="fas fa-user-shield"></i> 4. Transparencia y Sanción
+                </button>
+            </div>
+
+            <!-- CONTENIDO DE LAS PESTAÑAS -->
+            <div class="pt-2">
+
+                <!-- PESTAÑA 1 -->
+                <div id="tab-integridad" class="tab-content space-y-4">
+                    <div class="bg-amber-50/50 p-4 rounded-xl border-l-4 border-amber-500">
+                        <h3 class="font-bold text-amber-950 text-base mb-1">Integridad, Ética Pública y Profesionalización</h3>
+                        <p class="text-xs text-amber-800">Fracciones legales destacadas: I, V, XIV, XVIII, XXI, XXIV, XXV, XXVI</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Política de Integridad Pública:</span>
+                            <p class="text-slate-600">Elabora la política general en materia de profesionalización, mejora continua y cultura cívica dentro del gobierno.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Código de Ética y Reglas:</span>
+                            <p class="text-slate-600">Emite formalmente el Código de Ética de los Servidores Públicos Federales y propone directrices al sector privado.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Servicio Profesional de Carrera:</span>
+                            <p class="text-slate-600">Establece normas y autorizaciones para la administración de recursos humanos y estructuras orgánicas aprobadas.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Vinculación Educativa:</span>
+                            <p class="text-slate-600">Coordina con la SEP e Instituciones de Educación Superior la inclusión de contenidos éticos en programas escolares.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PESTAÑA 2 -->
+                <div id="tab-auditoria" class="tab-content hidden space-y-4">
+                    <div class="bg-blue-50/50 p-4 rounded-xl border-l-4 border-blue-500">
+                        <h3 class="font-bold text-blue-950 text-base mb-1">Control Interno, Auditoría y Fiscalización</h3>
+                        <p class="text-xs text-blue-800">Fracciones legales destacadas: II, IV, VI, VII, VIII, IX, X, XII</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Normatividad de Control:</span>
+                            <p class="text-slate-600">Expide normas reguladoras de los procedimientos de control interno, auditorías de gabinete y electrónicas.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Programa Anual de Fiscalización:</span>
+                            <p class="text-slate-600">Diseña el programa de revisiones anuales orientado a verificar la eficiencia y legalidad del gasto presupuestal.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Auditorías Directas:</span>
+                            <p class="text-slate-600">Ejecuta actos de fiscalización directa a dependencias, órganos desconcentrados y empresas del Estado.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Control de Auditores Externos:</span>
+                            <p class="text-slate-600">Designa, remueve y controla el desempeño de despachos o auditores externos designados a entidades públicas.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PESTAÑA 3 -->
+                <div id="tab-compras" class="tab-content hidden space-y-4">
+                    <div class="bg-emerald-50/50 p-4 rounded-xl border-l-4 border-emerald-500">
+                        <h3 class="font-bold text-emerald-950 text-base mb-1">Contrataciones Públicas y Proveeduría</h3>
+                        <p class="text-xs text-emerald-800">Fracciones legales destacadas: III, XXX, XXXII, XXXIII, XXXVI, XXXVII, XLII</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Supervisión Contractual:</span>
+                            <p class="text-slate-600">Vigila el cumplimiento estricto de las Leyes de Adquisiciones y Obras Públicas en todas las licitaciones federales.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Compras Consolidadas:</span>
+                            <p class="text-slate-600">Coordina junto con la Secretaría de Hacienda los procedimientos de compra masiva de bienes estratégicos.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Impulso a PYMES Nacionales:</span>
+                            <p class="text-slate-600">Emite reglas para favorecer la participación de la proveeduría nacional y micro, pequeñas y medianas empresas.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Conciliación e Inconformidades:</span>
+                            <p class="text-slate-600">Tramita recursos de inconformidad y mesas de conciliación entre proveedores particulares y las dependencias.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PESTAÑA 4 -->
+                <div id="tab-sanciones" class="tab-content hidden space-y-4">
+                    <div class="bg-purple-50/50 p-4 rounded-xl border-l-4 border-purple-500">
+                        <h3 class="font-bold text-purple-950 text-base mb-1">Transparencia, Responsabilidades y Control de Confianza</h3>
+                        <p class="text-xs text-purple-800">Fracciones legales destacadas: XV, XVI, XIX, XXXI, XLIII, XLIV, XLV</p>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Declaraciones Patrimoniales:</span>
+                            <p class="text-slate-600">Lleva el sistema de registro de declaraciones patrimoniales y de intereses, e investiga evoluciones injustificadas.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Investigación de Faltas:</span>
+                            <p class="text-slate-600">Actúa como autoridad investigadora, substanciadora y resolutora en procedimientos administrativos de sanción.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Exámenes de Control de Confianza:</span>
+                            <p class="text-slate-600">Aplica evaluaciones toxicológicas, médicas y psicológicas a funcionarios que aspiren a cargos de alto riesgo.</p>
+                        </div>
+                        <div class="bg-slate-50 p-4 rounded-xl border border-slate-200 space-y-1">
+                            <span class="font-bold text-slate-800 block">Acceso a la Información:</span>
+                            <p class="text-slate-600">Vigila las políticas de datos abiertos, gobierno digital y protección de datos en posesión del Ejecutivo Federal.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- SECCIÓN 3: ESTRUCTURA OPERATIVA Y ORGANOS -->
+        <section class="bg-white rounded-2xl p-6 shadow-md border border-slate-200 space-y-4">
+            <h2 class="text-xl font-bold text-slate-900 flex items-center gap-2 border-b pb-3">
+                <i class="fas fa-sitemap text-slate-700"></i> Estructura y Órganos de Supervisión Directa
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-xs md:text-sm">
+                <div class="bg-slate-900 text-white p-5 rounded-xl space-y-2">
+                    <div class="flex items-center gap-2 text-amber-400 font-bold text-base">
+                        <i class="fas fa-building-shield"></i> Órganos Internos de Control (OIC)
+                    </div>
+                    <p class="text-slate-300 leading-relaxed">
+                        Son las células de vigilancia distribuidas dentro de cada secretaría y entidad estatal. La Secretaría nombra a sus titulares y personal, garantizando su independencia funcional para auditar e investigar directamente (Frac. XXXIX y XL).
+                    </p>
+                </div>
+                <div class="bg-slate-900 text-white p-5 rounded-xl space-y-2">
+                    <div class="flex items-center gap-2 text-amber-400 font-bold text-base">
+                        <i class="fas fa-network-wired"></i> Sistema Nacional Anticorrupción
+                    </div>
+                    <p class="text-slate-300 leading-relaxed">
+                        Representa formalmente al Ejecutivo Federal ante los Sistemas Nacionales Anticorrupción y de Fiscalización, coordinando acuerdos interinstitucionales y resoluciones con los Comisarios Públicos (Frac. XXVII y XXVIII).
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="text-center text-xs text-slate-500 py-2 no-print">
+            Derecho Administrativo II • Entregable de Tarea 1.
+        </footer>
+    </div>
+
+    <!-- SCRIPT DE PESTAÑAS -->
+    <script>
+        function cambiarPestana(idContent) {
+            // Ocultar todos los contenidos
+            document.querySelectorAll('.tab-content').forEach(el => el.classList.add('hidden'));
+            
+            // Restablecer estilos de botones
+            document.querySelectorAll('.tab-btn').forEach(btn => {
+                btn.classList.remove('bg-slate-900', 'text-white');
+                btn.classList.add('bg-slate-100', 'text-slate-600');
+            });
+
+            // Mostrar contenido activo
+            document.getElementById(idContent).classList.remove('hidden');
+
+            // Activar botón seleccionado
+            const activeBtnId = 'btn-' + idContent.replace('tab-', '');
+            const activeBtn = document.getElementById(activeBtnId);
+            if(activeBtn) {
+                activeBtn.classList.remove('bg-slate-100', 'text-slate-600');
+                activeBtn.classList.add('bg-slate-900', 'text-white');
+            }
+        }
+    </script>
+</body>
+</html>
